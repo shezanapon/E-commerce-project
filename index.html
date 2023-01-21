@@ -1,0 +1,1777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logoAndFavicon/small-logo.png" type="image/x-icon">
+    <title>Emily - Fashion Store</title>
+    <link rel="stylesheet" href="./font/font.css">
+
+
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Offline Font Awesome  -->
+    <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+
+
+    <!-- Slick Slider  -->
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- Offline Slick Slider  -->
+    <link rel="stylesheet" href="./css/slick.css">
+
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+
+
+    <!-- Animation  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+    <!-- Offline Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <!-- Top Nav  -->
+        <div id="top-nav" class="">
+            <nav class="container text-white ">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6 col-6">
+                        <p class="welcome-msg">Hi! User! How are you?</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6 d-flex zIndex">
+                        <!-- Account  -->
+                        <div class="dropdown ms-auto ">
+                            <button class="btn text-white btn-sm dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                <i class="me-1 fas fa-user"></i>
+                                User Name
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="#">
+                                        <i class="me-1 fas fa-user"></i>
+                                        User Name
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-cog"></i>
+                                        Settings and privacy
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-question-circle"></i>
+                                        Help & Support
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-sign-out-alt"></i>
+                                        Log Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-info-circle"></i>
+                                        Give feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Language  -->
+                        <div class="language dropdown ">
+                            <button class="btn text-white btn-sm dropdown-toggle" type="button" id="dropdownMenuButton3"
+                                data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                <img src="./img//icons/america.png" width="25" height="20" class="me-1" alt="">
+                                English
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton3">
+                                <li><a class="dropdown-item active" href="#">
+                                        <img src="./img/icons/america.png" width="25" height="20" class="me-1" alt="">
+                                        English
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./img/icons/bangladesh.png" width="25" height="25" class="me-1"
+                                            alt="">
+                                        Bangla
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- Main Navbar  -->
+        <div class="sticky-top ">
+            <nav class="navigation navbar navbar-expand-lg navbar-light shadow py-lg-0 py-md-2 py-xm-3">
+                <div class="container">
+                    <a class="navbar-brand" onclick="scrollToTop()">
+                        <img src="./img/logoAndFavicon/logo.png" alt="Emily" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item me-lg-3 py-lg-3 active">
+                                <a class="nav-link" onclick="scrollToTop()" style="cursor: pointer;">HOME</a>
+                            </li>
+
+                            <!-- Dropdown Men  -->
+                            <li class="nav-item dropdown me-lg-3 py-lg-3">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown1" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    MEN
+                                </a>
+                                <ul class="dropdown-menu nested-menu" aria-labelledby="navbarDropdown1">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <li><a class="dropdown-item" href="./products.html">BLAZERS</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">JACKETS</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">T-SHIRT</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">JEANS PANTS</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">SPORTS SHOES</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                        </div>
+                                        <div class="col-6 nested-img ">
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/modals/adModelMan1.jpg" alt=""
+                                                    class="img-fluid nested-imgOne ">
+                                            </a>
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/modals/adModelMan2.jpg" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown Women  -->
+                            <li class="nav-item dropdown me-lg-3 py-lg-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    WOMEN
+                                </a>
+                                <ul class="dropdown-menu nested-menu" aria-labelledby="navbarDropdown2">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <li><a class="dropdown-item" href="./products.html">SHARI</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">BORKHA</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">HIJAB</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">BAG</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                        </div>
+                                        <div class="col-6 nested-img ">
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/carousel/carousel2.jpg" alt="female1"
+                                                    class="img-fluid nested-imgOne ">
+                                            </a>
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/carousel/carousel3.jpg" alt="female2" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown Kid  -->
+                            <li class="nav-item dropdown me-lg-3 py-lg-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    KID
+                                </a>
+                                <ul class="dropdown-menu nested-menu nested-menu-kid" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <li><a class="dropdown-item" href="./products.html">Baby Shirt</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Short Pants</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Show</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">School Bag</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Dyper</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Baby Pants</a></li>
+                                        </div>
+                                        <div class="col-6 nested-img ">
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/modals/adModelKids1.jpg" alt="kid1"
+                                                    class="img-fluid nested-imgOne ">
+                                            </a>
+                                            <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                                <img src="./img/modals/adModelKids2.jpg" alt="kid2" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item me-lg-3 py-lg-3">
+                                <a class="nav-link" href="./products.html" target="_blank"
+                                    rel="noopener noreferrer">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item me-lg-3 py-lg-3">
+                                <a class="nav-link" href="#blogs">BLOG</a>
+                            </li>
+                            <li class="nav-item me-lg-3 py-lg-3">
+                                <a class="nav-link" href="./contact-us.html" target="_blank"
+                                    rel="noopener noreferrer">CONTACT
+                                    US</a>
+                            </li>
+                            <li class="search nav-item py-4 px-lg-3 border-start border-4 ">
+                                <i class="fas fa-search"></i>
+                            </li>
+                            <!-- Search Box -->
+                            <div class="search-section">
+                                <div class="search-box">
+                                    <div class="search-input">
+                                        <input type="search" placeholder="Search..." class="input-textarea">
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="cartButtonClass nav-item py-4 px-lg-3 border-start border-end border-4">
+                                <button id="cartButton" type="button" class="btn position-relative ">
+                                    <i class="fab fa-opencart"></i>
+                                    <span class="position-absolute  rounded-pill translate-middle badge ">
+                                        <span id="cartCounter">0</span>
+                                        <span class="visually-hidden">New alerts</span>
+                                    </span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <ul class='social'>
+            <li>
+                <a  class="fa-brands fa-facebook-f" href="https://www.facebook.com/SyedMoonir/" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+
+            <li>
+                <a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/syed-monirul/" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+
+            <li>
+                <a class="fa-brands fa-github" href="https://syedmonir.github.io/emily-fashion-store/"  target="_blank" rel="noopener noreferrer">
+                </a>
+            </li>
+
+            <li>
+                <a  class="fa-brands fa-reddit-alien" href="https://www.reddit.com/user/DoubleAccomplished30" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+
+        </ul>
+
+        <!-- Main CAROUSEL  -->
+        <section id="mainCarousel">
+            <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/carousel/carousel2.jpg" class="d-block w-100" alt="...">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>This Autumn</h3>
+                            <h4>COLLECTION</h4>
+                            <h2>FASHION STREET <span>2022</span></h2>
+                            <h5>25 World Famous Brands</h5>
+                            <div class="wrapper">
+                                <a class="cta" href="./products.html" target="_blank" rel="noopener noreferrer">
+                                    <span class="ps-2 mt-1 mb-1">SHOP NOW</span>
+                                    <span>
+                                        <svg width="60px" height="30px" viewBox="0 0 66 43" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="arrow" stroke="none" stroke-width="1" fill="none"
+                                                fill-rule="evenodd">
+                                                <path class="one"
+                                                    d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="two"
+                                                    d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="three"
+                                                    d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/carousel/carousel1.jpg" class="d-block w-100" alt="...">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>This Autumn</h3>
+                            <h4>COLLECTION</h4>
+                            <h2>FASHION STREET <span>2022</span></h2>
+                            <h5>25 World Famous Brands</h5>
+                            <div class="wrapper">
+                                <a class="cta" href="./products.html" target="_blank" rel="noopener noreferrer">
+                                    <span class="ps-2 mt-1 mb-1">SHOP NOW</span>
+                                    <span>
+                                        <svg width="60px" height="30px" viewBox="0 0 66 43" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="arrow" stroke="none" stroke-width="1" fill="none"
+                                                fill-rule="evenodd">
+                                                <path class="one"
+                                                    d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="two"
+                                                    d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="three"
+                                                    d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/carousel/carousel3.jpg" class="d-block w-100" alt="...">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>This Autumn</h3>
+                            <h4>COLLECTION</h4>
+                            <h2>FASHION STREET <span>2022</span></h2>
+                            <h5>25 World Famous Brands</h5>
+                            <div class="wrapper">
+                                <a class="cta" href="./products.html" target="_blank" rel="noopener noreferrer">
+                                    <span class="ps-2 mt-1 mb-1">SHOP NOW</span>
+                                    <span>
+                                        <svg width="60px" height="30px" viewBox="0 0 66 43" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="arrow" stroke="none" stroke-width="1" fill="none"
+                                                fill-rule="evenodd">
+                                                <path class="one"
+                                                    d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="two"
+                                                    d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                                <path class="three"
+                                                    d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                                    fill="#FFFFFF"></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+
+        <!-- Support Section  -->
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center ">
+                    <div class="support-img">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <div class="support-text ms-3">
+                        <h4>Free Shipping</h4>
+                        <p>Apply for larger order $200</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center my-sm-3 my-3">
+                    <div class="support-img">
+                        <i class="fab fa-btc px-1"></i>
+                    </div>
+                    <div class="support-text ms-3">
+                        <h4>100% Money Back</h4>
+                        <p>Charisma is the moto of our work</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center mx-md-auto">
+                    <div class="support-img">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="support-text ms-3 ">
+                        <h4>Support 24/7</h4>
+                        <p><a href="tel:+8801988-512131">+8801988-512131</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--  New Arrival Section   &&&&&&    Slick Carousel    -->
+        <section id="newArrival" class="new-arrival-section pb-5">
+            <div class="container">
+                <!-- New Arrival Title  -->
+                <div class="row ">
+                    <div class="col">
+                        <div class="titles">
+                            <h2 class="text-uppercase">New Arrival</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Arrival slider -->
+                <div class="row ">
+                    <div class="new-arrival mt-3">
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box ">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal1.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-31%</span>
+                                    <span class="wish-icon"> <i class="far fa-heart"></i> </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Green</h4>
+                                    <p class="item-price"> <del>$400</del> <span>$369.00</span></p>
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="1">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal2.jpg" class="img-fluid zoomImg"
+                                            alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-1%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Black</h4>
+                                    <p class="item-price"><del>$25.00</del> <span>$23.99</span></p>
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="5">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal3.jpg" class="img-fluid zoomImg"
+                                            alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-5%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Green</h4>
+                                    <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal4.jpg" class="img-fluid zoomImg"
+                                            alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-2%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Blue</h4>
+                                    <p class="item-price"><del>$109.00</del> <span>$99.00</span></p>
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="4">
+                                    </label>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal10.jpg" class="img-fluid zoomImg"
+                                            alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-20%</span>
+                                    <span class="wish-icon">
+                                        <span><i class="far fa-heart"></i></span>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Black</h4>
+                                    <p class="item-price"><del>$1099.00</del> <span>$869.00</span></p>
+
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal9.jpg" class="img-fluid zoomImg"
+                                            alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-2%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Configurable Product</h4>
+                                    <p class="item-price"><del>$289.00</del> <span>$269.00</span></p>
+
+                                    <label class="rating-label">
+                                        <input class="rating rating--nojs" max="5" step="1" type="range" value="2">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Discount Section  -->
+        <section id="discount">
+            <div class="row">
+                <div class="background"></div>
+            </div>
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-md-5">
+                        <img src="./img/modals/700height.png" class="img-fluid reveal" alt="women with bag">
+                        <p class="percent50">50%</p>
+                    </div>
+                    <div class="col-md-7 my-auto">
+                        <p class="brand-clr text-uppercase save50">Save Up to 50%</p>
+                        <h1 class="text-uppercase">Later this weekend</h1>
+                        <p class="my-3">Code expires on 28/2/2022. Step up your game effortlessly and rise above the
+                            rest
+                            comfortably
+                            with up to 50% off the newest and most popular styles for men, women, and kids by redeeming
+                            this
+                            Nike coupon code during checkout.</p>
+
+                        <div class="btn-group mb-3" role="group" aria-label="Basic outlined example">
+                            <a href="https://github.com/SyedMonir" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-outline-dark me-2">LEARN MORE</a>
+                            <a href="./products.html" target="_blank" rel="noopener noreferrer">
+                                <button type="button" class="btn btn-outline-dark ">SHOP NOW</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Most Reviewed &  Isotope Carousel   -->
+        <!--  -->
+        <section id="mostReviewed" class="container mt-3">
+            <div class="row justify-content-between">
+                <div class="col-md-5 ">
+                    <div class="titles ">
+                        <h2 class="text-uppercase">Most Reviewed</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-lg-4">
+                <ul class="mostReviewedLinks nav ms-4">
+                    <li class="nav-item" data-filter="*">
+                        <a class="nav-link active slash" aria-current="page">NEW PRODUCTS</a>
+                    </li>
+                    <li class="nav-item" data-filter=".price">
+                        <a class="nav-link slash">PRICE</a>
+                    </li>
+                    <li class="nav-item" data-filter=".featured">
+                        <a class="nav-link pe-0">FEATURE</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+            <!-- <div class="slider">
+                <input type="radio" name="testimonial" id="t-1" />
+                <input type="radio" name="testimonial" id="t-2" />
+                <input type="radio" name="testimonial" id="t-3" checked />
+                <input type="radio" name="testimonial" id="t-4" />
+                <input type="radio" name="testimonial" id="t-5" />
+                <div class="testimonials mb-8">
+                    <label class="item" for="t-1">
+                        <div class="mycard">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal8.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-31%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Green</h4>
+                                    <p class="item-price"> <del>$400</del> <span>$369.00</span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label class="item" for="t-2">
+                        <div class="mycard">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal7.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                    </a>
+                                    <span class="new">New</span>
+                                    <span class="discount">-1%</span>
+                                    <span class="wish-icon">
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                    <span> <i class="cartCount fab fa-opencart"></i> </span>
+                                </div>
+
+                                <div class="slider-content">
+                                    <h4>Cfg Armani Black</h4>
+                                    <p class="item-price"><del>$25.00</del> <span>$23.99</span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label class="item" for="t-3">
+                        <div class="slider-item">
+                            <div class="img-box">
+                                <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="./img/modals/modal12.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                </a>
+                                <span class="new">New</span>
+                                <span class="discount">-2%</span>
+                                <span class="wish-icon">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                                <span> <i class="cartCount fab fa-opencart"></i> </span>
+                            </div>
+                            <div class="slider-content">
+                                <h4>Cfg Armani Blue</h4>
+                                <p class="item-price"><del>$109.00</del> <span>$99.00</span></p>
+
+
+                            </div>
+                        </div>
+                    </label>
+                    <label class="item" for="t-4">
+                        <div class="slider-item">
+                            <div class="img-box">
+                                <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="./img/modals/modal11.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                </a>
+                                <span class="new">New</span>
+                                <span class="discount">-5%</span>
+                                <span class="wish-icon">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                                <span> <i class="cartCount fab fa-opencart"></i> </span>
+                            </div>
+                            <div class="slider-content">
+                                <h4>Cfg Armani Green</h4>
+                                <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+
+                            </div>
+                        </div>
+                    </label>
+                    <label class="item" for="t-5">
+                        <div class="slider-item">
+                            <div class="img-box">
+                                <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="./img/modals/modal13.jpg" class="img-fluid" alt="Cfg Armani Black">
+                                </a>
+                                <span class="new">New</span>
+                                <span class="discount">-5%</span>
+                                <span class="wish-icon">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                                <span> <i class="cartCount fab fa-opencart"></i> </span>
+                            </div>
+                            <div class="slider-content">
+                                <h4>Cfg Armani Green</h4>
+                                <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                                <label class="rating-label">
+                                    <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                                </label>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="dots">
+                    <label for="t-1"></label>
+                    <label for="t-2"></label>
+                    <label for="t-3"></label>
+                    <label for="t-4"></label>
+                    <label for="t-5"></label>
+                </div>
+            </div> -->
+
+
+
+            <div class="row mostReviewedProducts mb-3 mt-2 g-lg-2">
+            <div class="col-md-3 price featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal8.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-31%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"> <del>$400</del> <span>$369.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 price featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal7.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-1%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+
+                    <div class="slider-content">
+                        <h4>Cfg Armani Black</h4>
+                        <p class="item-price"><del>$25.00</del> <span>$23.99</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="4">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal12.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-2%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Blue</h4>
+                        <p class="item-price"><del>$109.00</del> <span>$99.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="2">
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 price featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal11.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-5%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="5">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="row mostReviewedProducts mb-5 mt-2 g-lg-2">
+            <div class="col-md-3">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal13.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-5%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal14.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-5%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="4">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal6.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-5%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="2">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 featured">
+                <div class="slider-item">
+                    <div class="img-box">
+                        <img src="./img/modals/modal5.jpg" class="img-fluid" alt="Cfg Armani Black">
+                        <span class="new">New</span>
+                        <span class="discount">-5%</span>
+                        <span class="wish-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span> <i class="cartCount fab fa-opencart"></i> </span>
+                    </div>
+                    <div class="slider-content">
+                        <h4>Cfg Armani Green</h4>
+                        <p class="item-price"><del>$599.00</del> <span>$569.00</span></p>
+                        <label class="rating-label">
+                            <input class="rating rating--nojs" max="5" step="1" type="range" value="3">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <!-- From Salauddin  -->
+
+        <!--Offer section -->
+        <section class=" offers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 md-lg-0 mb-4 d-flex flex-column justify-content-between ">
+
+                        <a href="#">
+                            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                                <div class="offer-inner">
+                                    <div class="offer-img size position-relative overflow-hidden">
+                                        <img src="./img/modals/model15.jpg" alt="">
+                                        <div class="img-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="italic-text-p">Paris</p>
+                                            <h3>Fashion dresses</h3>
+                                            <h3 class="bottom-margin">collection</h3>
+                                            <p>new design of modern style</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-img size position-relative overflow-hidden">
+                                        <img src="./img/modals/model17.jpg" alt="">
+                                        <div class="img-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="italic-text-p">Sunglasses</p>
+                                            <h3 class="bottom-margin">top-selling <small>201<em>5</em></small> </h3>
+                                            <p>Emerging Brands this year</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <!--offer second box -->
+                    <div class="col-md-4 col-sm-6 col-md-4 md-lg-0 mb-4">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-img position-relative overflow-hidden">
+                                        <img src="./img/modals/model16.webp" alt="" class=" img-fluid">
+                                        <div class="img-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="italic-text-p">This Summer</p>
+                                            <h3>Fashion dresses</h3>
+                                            <h3 class="bottom-margin">collection</h3>
+                                            <p>Took place in paris on <small>2<span>5</span> /
+                                                    <span>5</span>/2016</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- offer third box -->
+                    <div class="col-sm-6 col-md-4 md-lg-0 mb-4 d-flex flex-column justify-content-between">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                                <div class="offer-inner">
+                                    <div class="offer-img position-relative size  overflow-hidden">
+                                        <img src="./img/BlaizeBaller .gif" alt="baller">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-img size position-relative overflow-hidden">
+                                        <img src="./img/modals/model18.jpg" alt="">
+                                        <div class="img-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="italic-text-p">New Style</p>
+                                            <h3 class="bottom-margin">Young fashion channel</h3>
+                                            <p>new fashion trends of the youth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Special offer -->
+        <section class="special-offer py-sm-3 pt-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="offer-title mb-4">
+                            <h2 class=" text-uppercase">Special offers</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img image1 h-100">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/modal19.jpg" alt="" class="h-100 w-auto img-fluid">
+                                    </a>
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Configurable Product</h4>
+                                    <p>$599.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img image2 h-100">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/model20.webp" alt="" class="h-100 w-auto img-fluid">
+                                    </a>
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Cfg Armani Black</h4>
+                                    <p>$624.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img h-100">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/model21.jpg" alt="" class="h-100 w-auto img-fluid">
+                                    </a>
+
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Cfg Armani Blue</h4>
+                                    <del>$668.90</del>
+                                    <p class=" d-inline-block ">$659.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img h-100">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/model22.jpg" alt="model22"
+                                            class="h-100 w-auto img-fluid">
+                                    </a>
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Cfg Armani Green</h4>
+                                    <del>$609.00</del>
+                                    <p class="price-style2 d-inline-block ">$521.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img h-100">
+                                    <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/model23.png" alt="model23"
+                                            class="h-100 w-auto img-fluid">
+                                    </a>
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Cfg Buberry Red</h4>
+                                    <del>$614.<small>00</small></del>
+                                    <p class=" d-inline-block ">$659.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="ss-offers mb-4">
+                            <div class="s-offer-items d-flex ">
+                                <div class="s-offer-img h-100">
+                                    <a href="./products.html" target="_blank" rel="noopener noreferrer">
+                                        <img src="./img/modals/model24.jpg" alt="model 24"
+                                            class="h-100 w-auto img-fluid">
+                                    </a>
+                                </div>
+                                <div class="s-offer-content h-auto p-3">
+                                    <h4>Cfg Buberry White</h4>
+                                    <del>$599.<small>00</small></del>
+                                    <p class=" d-inline-block ">$499.00</p>
+                                    <ul class="starts">
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                    <ul class=" icons-item ">
+                                        <li><i class="cartCount fab fa-opencart"></i></li>
+                                        <li><a href="#"> <i class=" far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class=" fas fa-balance-scale"></i></a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="add-card-btn text-center">
+                                <p class="cartCount buttn d-block  btn-block">add to card</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- testimonial carousel -->
+        <section class="testomonial container-fluid  py-2">
+            <div class="row px-0">
+                <div class="testimonialCarousel mt-3">
+                    <div class="col-md-3">
+                        <div class="slider-item ">
+                            <div class="item active">
+                                <div class="imgBox animated bounceInLeft" style="animation-delay: 3s;">
+                                    <img src="img/modals/modal14.jpg" alt="">
+                                </div>
+                                <div class="carousel-caption animated bounceInLeft" style="animation-delay: 2s;">
+                                    <h3>Nicola Mustone</h3>
+                                    <h4>Designer</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestiae id
+                                        rerum
+                                        dolorum temporibus accusamus similique. Saepe cum omnis nisi praesentium
+                                        voluptate
+                                        doloremque magnam sequi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="slider-item">
+                            <div class="item">
+                                <div class="imgBox animated bounceInLeft" style="animation-delay: 3s;">
+                                    <img src="img/modals/modal2.jpg" alt="">
+                                </div>
+                                <div class="carousel-caption animated bounceInLeft" style="animation-delay: 2s; ">
+                                    <h3>Nicola Mustone</h3>
+                                    <h4>Designer</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestiae id
+                                        rerum
+                                        dolorum temporibus accusamus similique. Saepe cum omnis nisi praesentium
+                                        voluptate
+                                        doloremque magnam sequi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="slider-item">
+                            <div class="item">
+                                <div class="imgBox animated bounceInLeft" style="animation-delay: 3s;">
+                                    <img src="img/modals/modal3.jpg" class="testimonialImg " alt="">
+                                </div>
+                                <div class="carousel-caption animated bounceInLeft" style="animation-delay: 2s; ">
+                                    <h3>Nicola Mustone</h3>
+                                    <h4>Designer</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestiae id
+                                        rerum
+                                        dolorum temporibus accusamus similique. Saepe cum omnis nisi praesentium
+                                        voluptate
+                                        doloremque magnam sequi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- blog section -->
+
+        <section id="blogs" class="blog-section py-5">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="titles ">
+                            <h2 class="text-uppercase">FORM THE BLOG</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog slider -->
+                <div class="row">
+
+                    <div class="blog-slider">
+                        <div class="col-md-4">
+                            <div class="slider-item">
+                                <img src="./img/modals/modal13.jpg" class=" img-fluid" alt="">
+                                <div class="slider-content">
+                                    <h3>Donec scelerisque quam vitae est.</h3>
+                                    <ul class="d-flex">
+                                        <li><span><i class="fas fa-clock"></i></span>Dec 7</li>
+                                        <li><span><i class="fas fa-user"></i></span>Nguyen Thang</li>
+                                    </ul>
+                                    <p>Dues imperdiet diam pharitra nisi.Fusce accumsan. Fusce adipicing. felis none
+                                        ornare
+                                        egestas. ri...</p>
+                                    <a href="#">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-item">
+                                <img src="./img/modals/modal7.jpg" class=" img-fluid" alt="">
+                                <div class="slider-content">
+                                    <h3>Curabitur adipiscing odio in</h3>
+                                    <ul class="d-flex">
+                                        <li><span><i class="fas fa-clock"></i></span>Dec 7</li>
+                                        <li><span><i class="fas fa-user"></i></span>Nguyen Thang</li>
+                                    </ul>
+                                    <p>Dues imperdiet diam pharitra nisi.Fusce accumsan. Fusce adipicing. felis none
+                                        ornare
+                                        egestas. ri...</p>
+                                    <a href="#">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-item">
+                                <img src="./img/modals/modal8.jpg" class=" img-fluid" alt="">
+                                <div class="slider-content">
+                                    <h3>Praesent laoreet ante tempor</h3>
+                                    <ul class="d-flex">
+                                        <li><span><i class="fas fa-clock"></i></span>Dec 7</li>
+                                        <li><span><i class="fas fa-user"></i></span>Nguyen Thang</li>
+                                    </ul>
+                                    <p>Dues imperdiet diam pharitra nisi.Fusce accumsan. Fusce adipicing. felis none
+                                        ornare
+                                        egestas. ri...</p>
+                                    <a href="#">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="slider-item">
+                                <img src="./img/modals/modal6.jpg" class=" img-fluid" alt="">
+                                <div class="slider-content">
+                                    <h3>Donec scelerisque quam vitae est.</h3>
+                                    <ul class="d-flex">
+                                        <li><span><i class="fas fa-clock"></i></span>Dec 7</li>
+                                        <li><span><i class="fas fa-user"></i></span>Nguyen Thang</li>
+                                    </ul>
+                                    <p>Dues imperdiet diam pharitra nisi.Fusce accumsan. Fusce adipicing. felis none
+                                        ornare
+                                        egestas. ri...</p>
+                                    <a href="#">Read more..</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- explore section -->
+        <section class="explore  py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="explore-caption py-3 text-center">
+                            <h2>Explore and Find the Fashion <span>You Love</span>. Dont't "Miss" Your Life!</h2>
+                            <p>'Look for passion and love with Emily store'</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-button text-center">
+                <a href="https://github.com/SyedMonir/emily-fashion-store" class="bttn"><span>discover</span></a>
+                <a href="./products.html" class="bttn"><span>shop now</span></a>
+            </div>
+
+        </section>
+
+
+        <!-- client logos section -->
+        <section class="clients py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-theme clients-carousel">
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/1.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/2.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/3.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/4.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/5.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/6.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/7.png" alt="client logo" class="client-img">
+                            </div>
+                            <div class="item box">
+                                <img src="./img/logoAndFavicon/8.png" alt="client logo" class="client-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer-section mt-3 ">
+        <!-- <div class="top-footer"> -->
+        <div class="top-footer py-5">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>information</h5>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Delivery Information</li>
+                                <li>Privecy Policy</li>
+                                <li>Term & Conditions</li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>customer</h5>
+                            <ul>
+                                <li>Search Terms</li>
+                                <li>Advanced Search</li>
+                                <li>Orders and Returns</li>
+                                <li>Contact Us</li>
+                                <li>Return Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>our account</h5>
+                            <ul>
+                                <li>My Account</li>
+                                <li>Orders and Returns</li>
+                                <li>Site Map</li>
+                                <li>Search Terms</li>
+                                <li>Advanced Search</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="f-item">
+                            <h5>contact us</h5>
+                            <ul>
+                                <li><span><i class="fas fa-home"></i></span> No. 1972 Charlington Gates, Liberty
+                                    Suspendis Mettis, New York</li>
+                                <li><span><i class="fas fa-envelope"></i></span>sayeemabrartasim@gmail.com</li>
+                                <li><span><i class="fas fa-phone-square-alt"></i></span><a href="tel:01858966328">(+88)
+                                        01858-966 328</a> </li>
+                                <li><span><i class="fas fa-fax"></i></span><a href="tel:">0433 558 1259</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="f-item">
+                            <h5>twitter</h5>
+                            <div class="tps-item py-4 d-flex">
+                                <div class="tps-img">
+                                    <a href="#">
+                                        <img src="./img/logoAndFavicon/tplsolution.png" class=" img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="tps-text">
+                                    <p>TPS Solution</p>
+                                    <a href="#">
+                                        @tplsolution
+                                    </a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>The easy ways to install #pretashop on your website <a
+                                        href="#">http://goo.gl/6sNkkw</a></li>
+                                <li>Posted on 08 Dec </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- last footer -->
+        <div class="bottom-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="b-footer-item">
+                            <p>&copy; 2022 Emily Fashion Store. All Rights Reserved by Emily Team Members</p>
+                            <ul class="payment">
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-paypal"></i></span></li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-visa"></i></span> </li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-mastercard"></i></span></li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fas fa-credit-card"></i></span></li>
+                            </ul>
+
+                            <!-- modal popup -->
+                            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content " style="z-index: 10;">
+                                        <div class="modal-body">
+                                            <!-- <i class="fa fa-close close" ></i> -->
+                                            <i class="fa-solid fa-xmark close" data-dismiss="modal"></i>
+                                            <div class="tabs mt-3">
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation"> <a class="nav-link active"
+                                                            id="visa-tab" data-toggle="tab" href="#visa" role="tab"
+                                                            aria-controls="visa" aria-selected="true"> <img
+                                                                src="./img/icons/visa-master-card.png" alt="visa"
+                                                                width="80"> </a>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation"> <a class="nav-link"
+                                                            id="paypal-tab" data-toggle="tab" href="#paypal" role="tab"
+                                                            aria-controls="paypal" aria-selected="false"> <img
+                                                                src="./img/icons/paypal.png" alt="paypal" width="80">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade show active" id="visa" role="tabpanel"
+                                                        aria-labelledby="visa-tab">
+                                                        <div class="mt-4 mx-4">
+                                                            <div class="text-center">
+                                                                <h5>Credit card</h5>
+                                                            </div>
+                                                            <div class="form mt-3">
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        class="form-control" required="required">
+                                                                    <span>Cardholder Name</span>
+                                                                </div>
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        min=1 max=999 class="form-control"
+                                                                        required="required"> <span>Card Number</span> <i
+                                                                        class="fa fa-eye"></i> </div>
+                                                                <div class="d-flex flex-row">
+                                                                    <div class="inputbox"> <input type="text"
+                                                                            name="name" min=1 max=999
+                                                                            class="form-control" required="required">
+                                                                        <span>Expiration
+                                                                            Date</span>
+                                                                    </div>
+                                                                    <div class="inputbox"> <input type="text"
+                                                                            name="name" min=1 max=999
+                                                                            class="form-control" required="required">
+                                                                        <span>CVV</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="px-5 pay"> <button
+                                                                        class="btn btn-success btn-block">Add
+                                                                        card</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="paypal" role="tabpanel"
+                                                        aria-labelledby="paypal-tab">
+                                                        <div class="px-5 mt-5">
+                                                            <div class="inputbox"> <input type="text" name="name"
+                                                                    class="form-control" required="required">
+                                                                <span>Paypal
+                                                                    Email Address</span>
+                                                            </div>
+                                                            <div class="pay px-5"> <button
+                                                                    class="btn btn-primary btn-block">Add
+                                                                    paypal</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="b-footer-item">
+                            <h5 class=" text-uppercase">Newsletter</h5>
+                            <p>Sign up for our newsletter</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="b-footer-item">
+                            <input type="email" class="default-input form-control" placeholder="Enter email here">
+                            <a href="https://www.gmail.com/" class="envelap" target="blank"><i
+                                    class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top -->
+    <div class="container position-relative">
+        <div id="scrollToTopBtn" class="scrollToTop text-center zIndex">
+            <p class="my-1" onclick="scrollToTop()">
+                <i class="fa-solid fa-angle-up"></i>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Chat Box  -->
+    <section>
+        <div id="chat-circle" class="btn btn-raised">
+            <div id="chat-overlay"></div>
+
+            <i class="fa-solid fa-message"></i> &nbsp; Messages
+        </div>
+
+        <div class="chat-box">
+            <div class="chat-box-header">
+                EMILY - FASHION STORE
+                <span class="chat-box-toggle"> <i class="fa-solid fa-xmark"></i> </span>
+            </div>
+            <div class="chat-box-body">
+                <div class="chat-box-overlay">
+                </div>
+                <div class="chat-logs">
+
+                </div>
+                <!--chat-log -->
+            </div>
+            <div class="chat-input">
+                <form>
+                    <input type="text" id="chat-input" placeholder="Send a message..." />
+                    <button type="submit" class="chat-submit" id="chat-submit">
+                        <!-- <i class="material-icons">send</i> -->
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Script Files  -->
+
+
+    <!-- jquery  -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script> -->
+
+
+    <!-- Slick JS  -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="./js/slick.min.js"></script>
+
+
+    <!-- Clients Section  -->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!--  Bootstrap JS  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Isotope Carousel  -->
+
+    <!-- <script src="./js/mainiso.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+    <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+    <script src="./js/isotope.js"></script>
+
+    <!-- Main Js  -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

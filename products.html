@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logoAndFavicon/small-logo.png" type="image/x-icon">
+    <title>Emily - Fashion Store</title>
+
+
+    <link rel="stylesheet" href="css/product_style.css">
+
+
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Slick Slider  -->
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- Offline Slick Slider  -->
+    <!-- <link rel="stylesheet" href="./css/slick.css"> -->
+
+
+</head>
+
+<body>
+    <header>
+        <!-- Top Nav  -->
+        <div id="top-nav" class="">
+            <nav class="container text-white ">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6 col-6">
+                        <p class="welcome-msg">Hi! User! How are you?</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-6 d-flex zIndex">
+                        <!-- Account  -->
+                        <div class="dropdown ms-auto ">
+                            <button class="btn text-white btn-sm dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                <i class="me-1 fas fa-user"></i>
+                                User Name
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="#">
+                                        <i class="me-1 fas fa-user"></i>
+                                        User Name
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-cog"></i>
+                                        Settings and privacy
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-question-circle"></i>
+                                        Help & Support
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-sign-out-alt"></i>
+                                        Log Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">
+                                        <i class="me-1 fas fa-info-circle"></i>
+                                        Give feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Language  -->
+                        <div class="language dropdown ">
+                            <button class="btn text-white btn-sm dropdown-toggle" type="button" id="dropdownMenuButton3"
+                                data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                <img src="./img/icons/america.png" width="25" height="20" class="me-1" alt="">
+                                English
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton3">
+                                <li><a class="dropdown-item active" href="#">
+                                        <img src="./img/icons/america.png" width="25" height="20" class="me-1" alt="">
+                                        English
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./img/icons/bangladesh.png" width="25" height="25" class="me-1"
+                                            alt="">
+                                        Bangla
+                                    </a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Main Navbar  -->
+    <div class="sticky-top ">
+        <nav class="navigation navbar navbar-expand-lg navbar-light shadow py-lg-0 py-md-2 py-xm-3">
+            <div class="container">
+                <a class="navbar-brand" onclick="scrollToTop()">
+                    <img src="./img/logoAndFavicon/logo.png" alt="Emily" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-lg-3 py-lg-3 active">
+                            <a class="nav-link" href="./index.html" onclick="scrollToTop()"
+                                style="cursor: pointer;">HOME</a>
+                        </li>
+
+                        <!-- Dropdown Men  -->
+                        <li class="nav-item dropdown me-lg-3 py-lg-3">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown1" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                MEN
+                            </a>
+                            <ul class="dropdown-menu nested-menu" aria-labelledby="navbarDropdown1">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <li><a class="dropdown-item" href="./products.html">BLAZERS</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">JACKETS</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">T-SHIRT</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">JEANS PANTS</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">SPORTS SHOES</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                    </div>
+                                    <div class="col-6 nested-img ">
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/modals/adModelMan1.jpg" alt=""
+                                                class="img-fluid nested-imgOne ">
+                                        </a>
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/modals/adModelMan2.jpg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Women  -->
+                        <li class="nav-item dropdown me-lg-3 py-lg-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                WOMEN
+                            </a>
+                            <ul class="dropdown-menu nested-menu" aria-labelledby="navbarDropdown2">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <li><a class="dropdown-item" href="./products.html">SHARI</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">BORKHA</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">HIJAB</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">BAG</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">SUN GLASS</a></li>
+                                    </div>
+                                    <div class="col-6 nested-img ">
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/carousel/carousel2.jpg" alt="female1"
+                                                class="img-fluid nested-imgOne ">
+                                        </a>
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/carousel/carousel3.jpg" alt="female2" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Kid  -->
+                        <li class="nav-item dropdown me-lg-3 py-lg-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                KID
+                            </a>
+                            <ul class="dropdown-menu nested-menu nested-menu-kid" aria-labelledby="navbarDropdown">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <li><a class="dropdown-item" href="./products.html">Baby Shirt</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">Short Pants</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">Show</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">School Bag</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">Dyper</a></li>
+                                        <li><a class="dropdown-item" href="./products.html">Baby Pants</a></li>
+                                    </div>
+                                    <div class="col-6 nested-img ">
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/modals/adModelKids1.jpg" alt="kid1"
+                                                class="img-fluid nested-imgOne ">
+                                        </a>
+                                        <a href="./product-details.html" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/modals/adModelKids2.jpg" alt="kid2" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="./products.html" target="_blank"
+                                rel="noopener noreferrer">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="#blogs">BLOG</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="./contact-us.html" target="_blank"
+                                rel="noopener noreferrer">CONTACT
+                                US</a>
+                        </li>
+                        <li class="search nav-item py-4 px-lg-3 border-start border-4 ">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <!-- Search Box -->
+                        <div class="search-section">
+                            <div class="search-box">
+                                <div class="search-input">
+                                    <input type="search" placeholder="Search..." class="input-textarea">
+                                </div>
+                            </div>
+                        </div>
+                        <li class="cartButtonClass nav-item py-4 px-lg-3 border-start border-end border-4">
+                            <button id="cartButton" type="button" class="btn position-relative ">
+                                <i class="fab fa-opencart"></i>
+                                <span class="position-absolute  rounded-pill translate-middle badge ">
+                                    <span id="cartCounter">0</span>
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--BREADCRUMB NAVBAR Done By Tani -->
+    <nav class="navbar navbar-expand-lg py-md-3" id="body">
+        <div class="container">
+            <section>
+                <h2>Accessories</h2>
+                <ul class="breadcrumb">
+                    <li><a href="./index.html">Home</a></li>
+                    <li>Accessories</li>
+                </ul>
+            </section>
+        </div>
+    </nav>
+    <!--BREADCRUMB NAVBAR END By-->
+
+
+    <div class="container">
+        <div class="row py-5">
+            <section id="sidebar" class="col-sm-12 col-lg-4 col-md-4">
+                <!--SHOP BY, CATEGORY, PRICE, MANUFACTURE, COLOR STARTING-->
+                <div class="" id="sidebar-card">
+                    <div class="card-header">
+                        <h2>SHOP BY</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>CATEGORY</p>
+                        <div class="" id="card-id">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Product types</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(8)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <p>PRICE</p>
+                        <div class="" id="card-id">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>$0.00 - $999.99</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(17)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>$1000.00 - $1999.99</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(1)</h6>
+                                        </div>
+                                    </div>
+
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>$4000.00 and above</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(2)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <p>MANUFACTURER</p>
+                        <div class="" id="card-id">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Armani</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(4)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Buberry</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(3)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Chanel</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(3)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Dior</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(2)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Gucci</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(1)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Hermes</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(3)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Prada</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(3)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1">
+                                            <h6>Versace</h6>
+                                        </div>
+                                        <div class="gr2">
+                                            <h6 class="text-left">(7)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <p>COLOR</p>
+                        <div class="mb-2" id="card-id">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1"><input type="color" class="color-chosser-input" id="colorbox"
+                                                value="#1c1c19"></div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(5)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1"><input type="color" class="color-chosser-input" id="colorbox"
+                                                value="#20294f"></div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(5)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1"><input type="color" class="color-chosser-input" id="colorbox"
+                                                value="#3edd19"></div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(5)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1"><input type="color" class="color-chosser-input" id="colorbox"
+                                                value="#bd1624"></div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(8)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <div class="grid-container d-flex justify-content-between">
+                                        <div class="gr1"><input type="color" class="color-chosser-input" id="colorbox"
+                                                value="#f7f6fd"></div>
+                                        <div class="gr2">
+                                            <h6 class="text-right">(4)</h6>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SHOP BY, CATEGORY, PRICE, MANUFACTURE, COLOR ENDING-->
+                <br><br><br>
+
+                <!--COMPARE SECTION START-->
+                <div class="" id="sidebar-card">
+                    <div class="card-header">
+                        <h2>Compare</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>You have no items to compare.</p>
+                    </div>
+                </div>
+                <!--COMPARE SECTION END-->
+                <br><br><br>
+                <!--35% DISCOUNT SECTION START-->
+                <div class="" id="sidebar-card">
+                    <img src="./img/gif.gif" class="w-100">
+                </div>
+                <!--35% DISCOUNT SECTION END-->
+                <br><br><br>
+
+                <!--TOP RATING HEADING SECTION START-->
+                <div class="" id="sidebar-card">
+                    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center"
+                        data-mdb-ride="carousel">
+                        <!-- Controls -->
+                        <div class="card-header d-flex">
+                            <h3>TOP RATING</h3>
+                            <button class="carousel-control-prev position-relative" type="button"
+                                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next position-relative" type="button"
+                                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <!--TOP RATING HEADING SECTION END-->
+
+                        <div class="carousel-inner col-sm-3 col-lg-4 col-md-4 py-4">
+                            <!-- FOR FIRST Single itemS -->
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row py-1" id="sidebar-card1">
+                                        <!-- <div class="" > -->
+                                        <div class="side-card py-1">
+                                            <div><img src="./img/s4.jpg" class="card-img-top" alt="Waterfall">
+                                                <div class="side-card-body">
+                                                    <h5 class="side-card-title">Cfg Armani Blue</h5>
+                                                    <p class="side-card-text">
+                                                        <del>$668.90</del>
+                                                        $659.00
+                                                    </p>
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="Bad" class="far fa-star">1
+                                                            stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="Poor" class="far fa-star">2
+                                                            stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="Average" class="far fa-star">3
+                                                            stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="Great" class="far fa-star">4
+                                                            stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="Excellent" class="far fa-star">5
+                                                            star</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+
+                                        <div class="side-card py-1">
+                                            <div><img src="./img/s5.jpg" class="card-img-top" alt="Waterfall">
+                                                <div class="side-card-body">
+                                                    <h5 class="side-card-title">Cfg Armani Gre..</h5>
+                                                    <p class="side-card-text">
+                                                        <del>$609.00</del>
+                                                        $521.00
+                                                    </p>
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="Bad" class="far fa-star">1
+                                                            stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="Poor" class="far fa-star">2
+                                                            stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="Average" class="far fa-star">3
+                                                            stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="Great" class="far fa-star">4
+                                                            stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="Excellent" class="far fa-star">5
+                                                            star</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+
+                                        <div class="side-card py-1">
+                                            <div><img src="./img/s7.jpg" class="card-img-top" alt="Waterfall">
+                                                <div class="side-card-body">
+                                                    <h5 class="side-card-title">Cfg Buberry Red</h5>
+                                                    <p class="side-card-text">
+                                                        <del>$614.00</del>
+                                                        $599.00
+                                                    </p>
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="Bad" class="far fa-star">1
+                                                            stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="Poor" class="far fa-star">2
+                                                            stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="Average" class="far fa-star">3
+                                                            stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="Great" class="far fa-star">4
+                                                            stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="Excellent" class="far fa-star">5
+                                                            star</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </div>
+
+                                        <div class="side-card py-1">
+                                            <div><img src="./img/s8.jpg" class="card-img-top" alt="Waterfall">
+                                                <div class="side-card-body">
+                                                    <h5 class="side-card-title">Cfg Buberry Wh..</h5>
+                                                    <p class="side-card-text">
+                                                        <del>$599.00</del>
+                                                        $499.00
+                                                    </p>
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="Bad" class="far fa-star">1
+                                                            stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="Poor" class="far fa-star">2
+                                                            stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="Average" class="far fa-star">3
+                                                            stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="Great" class="far fa-star">4
+                                                            stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="Excellent" class="far fa-star">5
+                                                            star</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--FIRST SINGLE ITEMS DONE-->
+
+                            <!--SECOND SINGLE ITEMS START-->
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row py-1">
+                                        <div class="" id="sidebar-card1">
+                                            <div class="side-card py-1">
+                                                <div><img src="./img/d5.jpg" class="card-img-top" alt="Waterfall">
+                                                    <div class="side-card-body">
+                                                        <h5 class="side-card-title">Cfg Armani Blue</h5>
+                                                        <p class="side-card-text">
+                                                            <del>$668.90</del>
+                                                            $659.00
+                                                        </p>
+                                                        <div class="rate">
+                                                            <input type="radio" id="star5" name="rate" value="5" />
+                                                            <label for="star5" title="Bad" class="far fa-star">1
+                                                                stars</label>
+                                                            <input type="radio" id="star4" name="rate" value="4" />
+                                                            <label for="star4" title="Poor" class="far fa-star">2
+                                                                stars</label>
+                                                            <input type="radio" id="star3" name="rate" value="3" />
+                                                            <label for="star3" title="Average" class="far fa-star">3
+                                                                stars</label>
+                                                            <input type="radio" id="star2" name="rate" value="2" />
+                                                            <label for="star2" title="Great" class="far fa-star">4
+                                                                stars</label>
+                                                            <input type="radio" id="star1" name="rate" value="1" />
+                                                            <label for="star1" title="Excellent" class="far fa-star">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+
+                                            <div class="side-card py-1">
+                                                <div><img src="./img/d16.jpg" class="card-img-top" alt="Waterfall">
+                                                    <div class="side-card-body">
+                                                        <h5 class="side-card-title">Cfg Armani Blue</h5>
+                                                        <p class="side-card-text">
+                                                            <del>$614.00</del>
+                                                            $599.00
+                                                        </p>
+                                                        <div class="rate">
+                                                            <input type="radio" id="star5" name="rate" value="5" />
+                                                            <label for="star5" title="Bad" class="far fa-star">1
+                                                                stars</label>
+                                                            <input type="radio" id="star4" name="rate" value="4" />
+                                                            <label for="star4" title="Poor" class="far fa-star">2
+                                                                stars</label>
+                                                            <input type="radio" id="star3" name="rate" value="3" />
+                                                            <label for="star3" title="Average" class="far fa-star">3
+                                                                stars</label>
+                                                            <input type="radio" id="star2" name="rate" value="2" />
+                                                            <label for="star2" title="Great" class="far fa-star">4
+                                                                stars</label>
+                                                            <input type="radio" id="star1" name="rate" value="1" />
+                                                            <label for="star1" title="Excellent" class="far fa-star">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="side-card py-1">
+                                                <div><img src="./img/d2.jpg" class="card-img-top" alt="Waterfall">
+                                                    <div class="side-card-body">
+                                                        <h5 class="side-card-title">Cfg Armani Blue</h5>
+                                                        <p class="side-card-text">
+                                                            <del>$609.00</del>
+                                                            $521.00
+                                                        </p>
+                                                        <div class="rate">
+                                                            <input type="radio" id="star5" name="rate" value="5" />
+                                                            <label for="star5" title="Bad" class="far fa-star">1
+                                                                stars</label>
+                                                            <input type="radio" id="star4" name="rate" value="4" />
+                                                            <label for="star4" title="Poor" class="far fa-star">2
+                                                                stars</label>
+                                                            <input type="radio" id="star3" name="rate" value="3" />
+                                                            <label for="star3" title="Average" class="far fa-star">3
+                                                                stars</label>
+                                                            <input type="radio" id="star2" name="rate" value="2" />
+                                                            <label for="star2" title="Great" class="far fa-star">4
+                                                                stars</label>
+                                                            <input type="radio" id="star1" name="rate" value="1" />
+                                                            <label for="star1" title="Excellent" class="far fa-star">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+
+                                            <div class="side-card py-1">
+                                                <div><img src="./img/s5.jpg" class="card-img-top" alt="Waterfall">
+                                                    <div class="side-card-body">
+                                                        <h5 class="side-card-title">Cfg Armani Blue</h5>
+                                                        <p class="side-card-text">
+                                                            <del>$599.00</del>
+                                                            $499.00
+                                                        </p>
+                                                        <div class="rate">
+                                                            <input type="radio" id="star5" name="rate" value="5" />
+                                                            <label for="star5" title="Bad" class="far fa-star">1
+                                                                stars</label>
+                                                            <input type="radio" id="star4" name="rate" value="4" />
+                                                            <label for="star4" title="Poor" class="far fa-star">2
+                                                                stars</label>
+                                                            <input type="radio" id="star3" name="rate" value="3" />
+                                                            <label for="star3" title="Average" class="far fa-star">3
+                                                                stars</label>
+                                                            <input type="radio" id="star2" name="rate" value="2" />
+                                                            <label for="star2" title="Great" class="far fa-star">4
+                                                                stars</label>
+                                                            <input type="radio" id="star1" name="rate" value="1" />
+                                                            <label for="star1" title="Excellent" class="far fa-star">5
+                                                                star</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--SECOND SINGLE ITEMS DONE-->
+
+                            <!-- PRODUCT ITEMS -->
+
+            </section>
+            <!-- ALL COL-9  CONTENT START FROM HERE -->
+            <div class="cara1 col-sm-12 col-lg-8 col-md-8">
+                <!-- SLIDER CAROUSEL CONTAINER START -->
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner pb-4" id="slider">
+                            <div class="carousel-item active">
+                                <img src="./img/s1.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/s3.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/s1.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SLIDER CAROUSEL CONTAINER END -->
+
+                <!-- PRODUCT ITEMS -->
+
+                <!-- GRID_VIEW, SHORT_BY,  SHOW_NAVBAR START -->
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <!-- <div class="gridview-container"> -->
+                        <div class="col-md-5 col-sm-12">
+                            <div class="icon">
+                                <div class="grid">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="list">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="btn-group">
+                                <h6 class="mt-2 mx-4 ms-auto">SORT BY</h6>
+                                <button type="button" class="btn btn-outline-secondary">Position</button>
+                                <button type="button"
+                                    class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Price</a></li>
+                                    <li><a class="dropdown-item" href="#">Rating</a></li>
+                                    <li><a class="dropdown-item" href="#">Date</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="btn-group ms-auto">
+                                <h6 class="mt-2 mx-4 ms-auto">SHOW</h6>
+                                <button type="button" class="btn btn-outline-secondary">12</button>
+                                <button type="button"
+                                    class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Price</a></li>
+                                    <li><a class="dropdown-item" href="#">Rating</a></li>
+                                    <li><a class="dropdown-item" href="#">Date</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GRID_VIEW, SHORT_BY,  SHOW_NAVBAR END -->
+
+                <!-- PRODUCT MODEL CONTAINER SECTION START -->
+                <div class="container">
+                    <div class="row ltg">
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card ms-auto">
+                                <div class="cart-img"><img src="./img/modals/modal7.jpg" class=" img-fluid card-img-top"
+                                        id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Cfg 04 Red</h6>
+                                    <p class="card-text">$100.98</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d2.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Simple product 04</h6>
+                                    <p class="card-text">$100.98</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d3.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Simple product 05</h6>
+                                    <p class="card-text">
+                                        <del>$113.00</del> $100.00
+                                    </p>
+
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d4.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Grouped Product</h6>
+                                    <div class="rate py-3">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d5.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Virtual Product</h6>
+                                    <p class="card-text">$95.00</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d6.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Bundle Product</h6>
+                                    <p class="card-text">
+                                        <del>From: </del> $113.00 <del>To: </del>$100.00
+                                    </p>
+
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d7.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container py-1">
+                                    <h6 class="card-title py-2">Bundle Product 02</h6>
+                                    <p class="card-text">
+                                        <del>As low as: </del> $4,480.43
+                                    </p>
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d8.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Downloadable Product</h6>
+                                    <p class="card-text">$1,102.00</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div class="py-3"><i class="fab fa-magento py-5 px-5 mb-5 my-5"
+                                        style="font-size:160px;color:#f0f0f0"></i>
+                                </div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-1">No image</h6>
+                                    <p class="card-text pt-2">$68.00</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d10.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Simple product 03</h6>
+                                    <p class="card-text">$79.00</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d11.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Simple product 02</h6>
+                                    <p class="card-text">$76.00</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-md-12">
+                            <div class="card">
+                                <div><img src="./img/d12.jpg" class="card-img-top" id="model" alt="..."></div>
+                                <div class="card-container">
+                                    <h6 class="card-title py-2">Simple product 02</h6>
+                                    <p class="card-text">$100.98</p>
+                                    <div class="rate py-2">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="Bad" class="far fa-star">1 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="Poor" class="far fa-star">2 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="Average" class="far fa-star">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="Great" class="far fa-star">4 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="Excellent" class="far fa-star">5 star</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- PRODUCT MODEL CONTAINER SECTION END -->
+                <hr>
+                <!-- PAGINATION START -->
+                <div class="container pt-3">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item active" aria-current="page">
+                            <!-- <span class="page-link">1</span> -->
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="./product_page2.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="products.html"><i
+                                    class="fa-solid fa-caret-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- PAGINATION END -->
+            </div>
+
+            <!-- ALL COL-9  CONTENT ENDS HERE -->
+
+        </div>
+    </div>
+
+
+    <!-- Explore -->
+    <section class="explore  py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="explore-caption py-3 text-center">
+                        <h2>Explore and Find the Fashion <span>You Love</span>. Dont't "Miss" Your Life!</h2>
+                        <p>'Look for passion and love with Emily store'</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore-button text-center">
+            <a href="https://github.com/SyedMonir/emily-fashion-store" class="bttn"><span>discover</span></a>
+            <a href="./products.html" class="bttn"><span>shop now</span></a>
+        </div>
+
+    </section>
+
+    <!-- information section start -->
+    <!-- <section class="information-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-6">
+                    <h5>INFORMATION</h5>
+                    <p>About Us</p>
+                    <p>Delivery Information</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Services</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>CUSTOMER</h5>
+                    <p>Search Terms</p>
+                    <p>Advanced Search</p>
+                    <p>Order and Returns</p>
+                    <p><a href="./contact-us.html">Contact Us</a></p>
+                    <p>Return Policy</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mt-md-2">
+                    <h5>OUR ACCOUNT</h5>
+                    <p>My Account</p>
+                    <p>Order and Returns</p>
+                    <p>Site Map</p>
+                    <p>Search Terms</p>
+                    <p>Advanced Search</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-md-2 contact-us">
+                    <h5>CONTACT US</h5>
+
+                    <p><span><i class="fas fa-home"></i></span> No. 1972 Charlington Gates, Liberty, Susperndis
+                        Mettis, New York</p>
+                    <p><span><i class="fas fa-envelope"></i></span> contact@emily.com</p>
+                    <p><span><i class="fas fa-phone-square-alt"></i></span> (+84) 988 881 628</p>
+                    <p><span><i class="fas fa-fax"></i></span> 0433 558 1259</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-md-2">
+                    <h5>TWITTER</h5>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./img/logoAndFavicon/tplsolution.png" alt="TPS-Solution" height="110px"
+                                width="110px">
+                        </div>
+                        <div class="col-lg-7">
+                            <p>TPS Solution</p>
+                            <p>@tplsolution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- information section end -->
+    <!-- 
+    <footer>
+        <section class="footer-section py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <p>&copy; 2022 Emily Fashion Store Store. All Rights Received. Designed by Emily Team</p>
+                        <p class="display-6">
+                            <span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                    class=" fab fa-cc-paypal"></i></span>
+                            <span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                    class="fab fa-cc-visa"></i></span>
+                            <span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                    class="fab fa-cc-mastercard"></i></span>
+                            <span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                    class="fas fa-credit-card"></i></span>
+                        </p>
+                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i>
+                                        </div>
+                                        <div class="tabs mt-3">
+                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation"> <a class="nav-link active"
+                                                        id="visa-tab" data-toggle="tab" href="#visa" role="tab"
+                                                        aria-controls="visa" aria-selected="true"> <img
+                                                            src="https://i.imgur.com/sB4jftM.png" width="80"> </a> </li>
+                                                <li class="nav-item" role="presentation"> <a class="nav-link"
+                                                        id="paypal-tab" data-toggle="tab" href="#paypal" role="tab"
+                                                        aria-controls="paypal" aria-selected="false"> <img
+                                                            src="https://i.imgur.com/yK7EDD1.png" width="80"> </a> </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="visa" role="tabpanel"
+                                                    aria-labelledby="visa-tab">
+                                                    <div class="mt-4 mx-4">
+                                                        <div class="text-center">
+                                                            <h5>Credit card</h5>
+                                                        </div>
+                                                        <div class="form mt-3">
+                                                            <div class="inputbox"> <input type="text" name="name"
+                                                                    class="form-control" required="required">
+                                                                <span>Cardholder Name</span>
+                                                            </div>
+                                                            <div class="inputbox"> <input type="text" name="name"
+                                                                    min="1" max="999" class="form-control"
+                                                                    required="required">
+                                                                <span>Card Number</span> <i class="fa fa-eye"></i>
+                                                            </div>
+                                                            <div class="d-flex flex-row">
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        min="1" max="999" class="form-control"
+                                                                        required="required"> <span>Expiration
+                                                                        Date</span> </div>
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        min="1" max="999" class="form-control"
+                                                                        required="required"> <span>CVV</span> </div>
+                                                            </div>
+                                                            <div class="px-5 pay"> <button
+                                                                    class="btn btn-success btn-block">Add card</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="paypal" role="tabpanel"
+                                                    aria-labelledby="paypal-tab">
+                                                    <div class="px-5 mt-5">
+                                                        <div class="inputbox"> <input type="text" name="name"
+                                                                class="form-control" required="required"> <span>Paypal
+                                                                Email Address</span> </div>
+                                                        <div class="pay px-5"> <button
+                                                                class="btn btn-primary btn-block">Add
+                                                                paypal</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <h5>NEWSLETTER</h5>
+                        <P>Sign up for our newsletter</P>
+                    </div>
+                    <div class="col-lg-4 input-fild">
+                        <input type="email" class="form-control my-4" name="email" id="email"
+                            placeholder="Enter email here" required>
+                        <div><a href="https://www.gmail.com/" target="blank"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer> -->
+
+
+    <!-- footer section -->
+    <footer class="footer-section mt-3 ">
+        <!-- <div class="top-footer"> -->
+        <div class="top-footer py-5">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>information</h5>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Delivery Information</li>
+                                <li>Privecy Policy</li>
+                                <li>Term & Conditions</li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>customer</h5>
+                            <ul>
+                                <li>Search Terms</li>
+                                <li>Advanced Search</li>
+                                <li>Orders and Returns</li>
+                                <li>Contact Us</li>
+                                <li>Return Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="f-item">
+                            <h5>our account</h5>
+                            <ul>
+                                <li>My Account</li>
+                                <li>Orders and Returns</li>
+                                <li>Site Map</li>
+                                <li>Search Terms</li>
+                                <li>Advanced Search</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="f-item">
+                            <h5>contact us</h5>
+                            <ul>
+                                <li><span><i class="fas fa-home"></i></span> No. 1972 Charlington Gates, Liberty
+                                    Suspendis Mettis, New York</li>
+                                <li><span><i class="fas fa-envelope"></i></span>sayeemabrartasim@gmail.com</li>
+                                <li><span><i class="fas fa-phone-square-alt"></i></span><a href="tel:01858966328">(+88)
+                                        01858-966 328</a> </li>
+                                <li><span><i class="fas fa-fax"></i></span><a href="tel:">0433 558 1259</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="f-item">
+                            <h5>twitter</h5>
+                            <div class="tps-item py-4 d-flex">
+                                <div class="tps-img">
+                                    <a href="#">
+                                        <img src="./img/logoAndFavicon/tplsolution.png" class=" img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="tps-text">
+                                    <p>TPS Solution</p>
+                                    <a href="#">
+                                        @tplsolution
+                                    </a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>The easy ways to install #pretashop on your website <a
+                                        href="#">http://goo.gl/6sNkkw</a></li>
+                                <li>Posted on 08 Dec </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- last footer -->
+        <div class="bottom-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="b-footer-item">
+                            <p>&copy; 2022 Emily Fashion Store. All Rights Reserved by Emily Team Members</p>
+                            <ul class="payment">
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-paypal"></i></span></li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-visa"></i></span> </li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fab fa-cc-mastercard"></i></span></li>
+                                <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                                            class="fas fa-credit-card"></i></span></li>
+                            </ul>
+
+                            <!-- modal popup -->
+                            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content " style="z-index: 10;">
+                                        <div class="modal-body">
+                                            <!-- <i class="fa fa-close close" ></i> -->
+                                            <i class="fa-solid fa-xmark close" data-dismiss="modal"></i>
+                                            <div class="tabs mt-3">
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation"> <a class="nav-link active"
+                                                            id="visa-tab" data-toggle="tab" href="#visa" role="tab"
+                                                            aria-controls="visa" aria-selected="true"> <img
+                                                                src="./img/icons/visa-master-card.png" alt="visa"
+                                                                width="80"> </a>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation"> <a class="nav-link"
+                                                            id="paypal-tab" data-toggle="tab" href="#paypal" role="tab"
+                                                            aria-controls="paypal" aria-selected="false"> <img
+                                                                src="./img/icons/paypal.png" alt="paypal" width="80">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-pane fade show active" id="visa" role="tabpanel"
+                                                        aria-labelledby="visa-tab">
+                                                        <div class="mt-4 mx-4">
+                                                            <div class="text-center">
+                                                                <h5>Credit card</h5>
+                                                            </div>
+                                                            <div class="form mt-3">
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        class="form-control" required="required">
+                                                                    <span>Cardholder Name</span>
+                                                                </div>
+                                                                <div class="inputbox"> <input type="text" name="name"
+                                                                        min=1 max=999 class="form-control"
+                                                                        required="required"> <span>Card Number</span> <i
+                                                                        class="fa fa-eye"></i> </div>
+                                                                <div class="d-flex flex-row">
+                                                                    <div class="inputbox"> <input type="text"
+                                                                            name="name" min=1 max=999
+                                                                            class="form-control" required="required">
+                                                                        <span>Expiration
+                                                                            Date</span>
+                                                                    </div>
+                                                                    <div class="inputbox"> <input type="text"
+                                                                            name="name" min=1 max=999
+                                                                            class="form-control" required="required">
+                                                                        <span>CVV</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="px-5 pay"> <button
+                                                                        class="btn btn-success btn-block">Add
+                                                                        card</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="paypal" role="tabpanel"
+                                                        aria-labelledby="paypal-tab">
+                                                        <div class="px-5 mt-5">
+                                                            <div class="inputbox"> <input type="text" name="name"
+                                                                    class="form-control" required="required">
+                                                                <span>Paypal
+                                                                    Email Address</span>
+                                                            </div>
+                                                            <div class="pay px-5"> <button
+                                                                    class="btn btn-primary btn-block">Add
+                                                                    paypal</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="b-footer-item">
+                            <h5 class=" text-uppercase">Newsletter</h5>
+                            <p>Sign up for our newsletter</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="b-footer-item">
+                            <input type="email" class="default-input form-control" placeholder="Enter email here">
+                            <a href="https://www.gmail.com/" class="envelap" target="blank"><i
+                                    class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+
+
+<!-- Scroll To Top -->
+<div class="container position-relative">
+    <div id="scrollToTopBtn" class="scrollToTop text-center zIndex">
+        <p class="my-1" onclick="scrollToTop()">
+            <i class="fa-solid fa-angle-up"></i>
+        </p>
+    </div>
+</div>
+
+
+<!-- Chat Box  -->
+<section>
+    <div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+
+        <i class="fa-solid fa-message"></i> &nbsp; Messages
+    </div>
+
+    <div class="chat-box">
+        <div class="chat-box-header">
+            EMILY - FASHION STORE
+            <span class="chat-box-toggle"> <i class="fa-solid fa-xmark"></i> </span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay">
+            </div>
+            <div class="chat-logs">
+
+            </div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" placeholder="Send a message..." />
+                <button type="submit" class="chat-submit" id="chat-submit">
+                    <!-- <i class="material-icons">send</i> -->
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap JS  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+
+<!-- Main Js  -->
+<script src="./js/product.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script>
+    let myCarousel1 = document.querySelector('.carousel')
+    let carousel = new bootstrap.Carousel(myCarousel1, {
+        interval: 2000,
+        wrap: true
+    });
+
+    // Quote
+    // let quoteCarosul = document.querySelector('#quote-carousel')
+    // let carousel1 = new bootstrap.Carousel(quoteCarosul, {
+    //     interval: 1000,
+    //     wrap: true
+    // });
+</script>
+
+
+
+
+
+
+<script>
+    const list = document.querySelector(".list");
+    const grid = document.querySelector(".grid");
+    const ltg = document.querySelector(".ltg");
+    const card = document.querySelectorAll(".card");
+
+    list.addEventListener("click", () => {
+        ltg.classList.add("list");
+
+    })
+
+    grid.addEventListener("click", () => {
+        ltg.classList.remove("list");
+    })
+
+</script>
+
+<!--  -->
+
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script> -->
+
+
+</html>

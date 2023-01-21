@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Product Card/Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/product-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <section class="header-breadcrumb py-4">
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <ul class=" breadcrumb">
+            <li class=" breadcrumb-item">Home</li>
+            <li class=" breadcrumb-item bg">Quisque in Arcu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-6">
+          <div class="img-display">
+            <div class="img-showcase">
+              <img src="./img/1.jpg" class=" img-fluid" alt="shoe image">
+              <img src="./img/2.jpg" class=" img-fluid" alt="shoe image">
+              <img src="./img/1.jpg" class=" img-fluid" alt="shoe image">
+              <img src="./img/1.jpg" class=" img-fluid" alt="shoe image">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <div class="img-select">
+            <div class="img-item">
+              <a href="#" data-id="1">
+                <img src="./img/1.jpg" class=" img-fluid" alt="shoe image">
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="2">
+                <img src="./img/2.jpg" alt="shoe image">
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="3">
+                <img src="./img/1.jpg" alt="shoe image">
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-5 col-sm-12">
+          <div class="product-content">
+            <h2 class="product-title">quisque in arcu</h2>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <div class="product-price">
+              <p class="last-price d-inline-block"><span>€699.00</span></p>
+              <p class="new-price d-inline-block"><span>€800.00</span></p>
+            </div>
+
+            <div class="product-detail">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur
+                placeat sapiente architecto illum soluta consequuntur, aspernatur!</p>
+
+              <ul>
+                <li>Available: <span>in stock</span></li>
+              </ul>
+            </div>
+            <!-- timer html -->
+            <div id="clockdiv">
+              <div class="slesh">
+                <span class="days" id="day"></span>
+                <div class="smalltext">Days</div>
+
+              </div>
+              <div class="slesh">
+                <span class="hours" id="hour"></span>
+                <div class="smalltext">Hours</div>
+              </div>
+              <div class="slesh">
+                <span class="minutes" id="minute"></span>
+                <div class="smalltext">Minutes</div>
+              </div>
+              <div>
+                <span class="seconds" id="second"></span>
+                <div class="smalltext">Seconds</div>
+              </div>
+            </div>
+
+            <div class="purchase-info">
+              <label class=" d-inline-block" for="#">Qty:</label>
+              <input type="number" min="0" value="1">
+              <button type="button" class="btn">
+                Add to Cart <i class="fas fa-shopping-cart"></i>
+              </button>
+
+            </div>
+            <h3 class="wislist">
+              Add to Wishlist Add to Compare Email a friend
+            </h3>
+            <div class="social-badge">
+              <button type="button" class="btn btn-primary">
+                <span class="badge "><i class="fab fa-facebook-f"></i></span> Like
+              </button>
+              <button type="button" class="btn border btn-white">0</button>
+              <button type="button" class="btn blue btn-primary">
+                <span class="badge"><i class="fab fa-twitter"></i></span> Twitter
+              </button>
+              <button type="button" class="btn border btn-white">
+                <i class="text-warning  fab  fa-google-plus" aria-hidden="true"></i>1
+              </button>
+              <button type="button" class="btn border btn-white">0</button>
+              <button type="button" class="btn orange btn-primary">
+                <span class="badge  text-white ">+</span>Share
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- review section -->
+  <section class="review-section mb-5 mb-lg-0py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="mb-3">
+            <div class="nav" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Product description</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">reviews</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Product tags</button>
+            </div>
+          </nav>
+          <div class="tab-content " id="nav-tabContent">
+            <div class="tab-pane text-justify fade show active" id="nav-home" role="tabpanel"
+              aria-labelledby="nav-home-tab"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem
+              delectus, hic consequuntur quia tempora dolore harum quo debitis odit, fugiat totam fugit consequatur
+              blanditiis voluptates porro illum aperiam. Labore eligendi nemo debitis iste mollitia velit magnam vero id
+              eum maiores non, dolorem ex expedita in aperiam cum reprehenderit unde? Nam provident repellat perferendis
+              totam dolore quia amet dolorum reprehenderit quasi error, quo perspiciatis laudantium eligendi quis culpa
+              adipisci laboriosam dolor iure doloremque quae reiciendis? Quaerat, mollitia facilis animi ut voluptas
+              vel. Quidem perferendis accusantium repudiandae ducimus odit aperiam dicta asperioreserror, quo
+              perspiciatis laudantium eligendi quis culpa adipisci laboriosam dolor iure doloremque quae reiciendis?
+              Quaerat, mollitia facilis animi ut voluptas vel. Quidem perferendis accusantium repudiandae ducimus odit
+              aperiam magnam iure, maxime ullam molestiae iste dolorum ad. Possimus quam quaerat,doloremque quae
+              reiciendis? Quaerat, mollitia facilis animi ut voluptas vel. Quidem perferendis accusantium repudiandae
+              ducimus odit aperiam dicta asperiores magnam iure, maxime ullam molestiae iste dolorum ad. Possimus quam
+              quaerat excepturi cupiditate hic modi? Doloribus unde amet, expedita consequatur excepturi quidem eligendi
+              nemo ab deleniti veritatis modi non? Iure ad beatae quisquam harum libero eius sunt, facere explicabo cum
+              tempore dicta fuga, et voluptas sed ratione voluptates nam in odio! Saepe ducimus doloremque impedit,
+              voluptate velit odit voluptas? </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Expedita ab nobis odio eveniet eligendi quos neque! Dolorem
+              aliquam provident reiciendis sint, modi assumenda, consequuntur enim ducimus tenetur consectetur libero,
+              fuga magni! Eaque aperiam debitis quas, similique placeat suscipit consequuntur totam quo delectus eius
+              enim? Quam quos porro nostrum, in qui soluta blanditiis odit rem adipisci optio repellendus voluptas
+              quaerat, possimus, illum corrupti! Iste illum corporis at totam maioresdoloremque quae reiciendis?
+              Quaerat, mollitia facilis animi ut voluptas vel. Quidem perferendis accusantium repudiandae ducimus odit
+              aperiam dicta asperiores magnam iure, maxime ullam molestiae iste dolorum ad. Possimus quam quaerat sunt
+              repudiandaeerror, quo perspiciatis laudantium eligendi quis culpa adipisci laboriosam dolor iure
+              doloremque quae reiciendis? Quaerat, mollitia facilis animi ut voluptas vel. Quidem perferendis
+              accusantium repudiandae ducimus odit aperiam quidem laudantium quae, aperiam maxime odit. Totam sequi
+              exercitationem, quibusdam consequuntur fugit voluptatum dignissimos non, qui earum accusamus amet eum
+              atque aperiam aliquam sapiente reiciendis, aut at recusandae? Aliquid, illum eveniet. Suscipit mollitia
+              commodi sit non expedita nam quae dicta et libero necessitatibus quam rem dolore soluta, laborum nostrum
+              ad inventore dolores? Earum laborum natus obcaecati expedita dolorem laboriosam laudantium.</div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Enim tempore doloribus excepturi eaque amet iste provident ab
+              perspiciatis nam beatae totam, delectus, sunt eveniet ut, aliquam deserunt autem architecto? Nemo, earum.
+              Deleniti, quis? Minima et, hic mollitia sed laborum temporibus sit!Possimus quam quaerat sunt repudiandae
+              quidem laudantium quae, aperiam maxime odit.error, quo perspiciatis laudantium eligendi quis culpa
+              adipisci laboriosam dolor iure doloremque quae reiciendis? Quaerat, mollitia facilis animi ut voluptas
+              vel. Quidem perferendis accusantium repudiandae ducimus odit aperiam Totam sequi exercitationem, quibusdam
+              consequuntur fugit voluptatum dignissimos non, qui earum accusamus amet eum atque aperiam aliquam sapiente
+              Nobis quia, mollitia amet in ex inventore id. Quidem cumque tenetur ipsum sed enim alias cum corrupti
+              voluptatum rem sint, ducimus nobis, dignissimos blanditiis fugit eos harum consectetur nisi recusandae
+              reprehenderit perferendis aliquam asperiores inventore modi. Nostrum, iusto libero vero odit magnam
+              doloribus cum nihil aut sit dolore cupiditate hic consequatur assumenda perferendis corrupti cumque,
+              dolores.</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="slider-section mt-5 mt-lg-2 mt-sm-4 py-5">
+
+    <div class="container">
+      <h5>upsell product</h5>
+      <div class="row">
+        <div class="blg-slider">
+          <div class="col-md-3">
+            <div class="slider_item">
+              <img src="./img/4.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>occaecati cupiditate</h6>
+                <p>€345.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/5.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>donec ac tempus</h6>
+                <p>€222.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.png" class=" img-fluid" alt="">
+              <div class="s-caption necles text-center">
+                <h6>aliquam consequat</h6>
+                <p>€125.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>fusce aliquam</h6>
+                <p>€155.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.png" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>occaecati cupiditate</h6>
+                <p>€345.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="slider-section two py-5">
+
+    <div class="container">
+      <h5>related products</h5>
+      <div class="row">
+        <div class="blg-slider">
+          <div class="col-md-3">
+            <div class="slider_item">
+              <img src="./img/5.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>occaecati cupiditate</h6>
+                <p>€345.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/4.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>donec ac tempus</h6>
+                <p>€222.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.png" class=" img-fluid" alt="">
+              <div class="s-caption necles text-center">
+                <h6>aliquam consequat</h6>
+                <p>€125.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.jpg" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>fusce aliquam</h6>
+                <p>€155.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="slider_item text-center">
+              <img src="./img/3.png" class=" img-fluid" alt="">
+              <div class="s-caption text-center">
+                <h6>occaecati cupiditate</h6>
+                <p>€345.00</p>
+                <a href="#" class="btn btn-outline-secondary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+  <!-- footer section -->
+  <footer class="foot">
+    <div class="container">
+      <div class="row">
+        <div class="col col1">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries.
+          </p>
+          <div class="more">
+            <p>Read More &nbsp<i class="fas fa-arrow-right"></i></p>
+          </div>
+          <div class="icon2">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-youtube-square"></i></a>
+            <a href=""><i class="fab fa-pinterest-square"></i></a>
+            <a href=""><i class="fab fa-google-plus-square"></i></a>
+            <a href=""><i class="fab fa-tumblr-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+
+          </div>
+        </div>
+
+        <div class="col col2">
+          <h3>My Account</h3>
+          <p><a href="#">My Account</a></p>
+          <p><a href="#">Login</a></p>
+          <p><a href="#">My Cart</a></p>
+          <p><a href="#">Wishlist</a></p>
+          <p> <a href="#">Sitemap</a></p>
+          <p> <a href="#">Privacy Policy</a></p>
+          <p> <a href="#">Advanced Search</a></p>
+          <p><a href="#">Contact Us</a></p>
+        </div>
+
+        <div class="col">
+          <div class="tags">
+            <h3>Related Tags</h3>
+            <div>
+              <button type="button" class="btn btn-outline-secondary">Clothing</button>
+              <button type="button" class="btn btn-outline-secondary">Accessories</button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-secondary">Fashion</button>
+              <button type="button" class="btn btn-outline-secondary">Footwear</button>
+              <button type="button" class="btn btn-outline-secondary">Good</button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-secondary">Kid</button>
+              <button type="button" class="btn btn-outline-secondary">Man</button>
+              <button type="button" class="btn btn-outline-secondary">Woman</button>
+            </div>
+            <div class="bbtn">
+              <button type="button" class="btn btn-outline-secondary">View All Tags</button>
+            </div>
+          </div>
+          <div class="p2">
+            <p>Please write your email and get our amazing updates, news and support...</p>
+          </div>
+
+          <div class="form">
+            <input class="form-control" type="text" />
+            <i class="far fa-envelope"></i>
+          </div>
+        </div>
+
+        <div class="col contact">
+          <h3>Contact Info</h3>
+          <div class="row tags1">
+            <div class="col">
+              <p class="pl">Warehouse & Office1</p>
+            </div>
+            <div class="col road">
+              <p>8901 Marmora Road</p>
+            </div>
+          </div>
+          <div class="row tags2">
+            <div class="col">
+              <p class="pl">Warehouse & Office1</p>
+            </div>
+            <div class="col road">
+              <p>8901 Marmora Road</p>
+            </div>
+          </div>
+          <div class="row tags3">
+            <div class="col">
+              <p class="pl">Phone:</p>
+            </div>
+            <div class="col phone">
+              <p>(800) 0123 456 789</p>
+              <p>(800) 0177 456 789</p>
+            </div>
+          </div>
+          <div class="row tags4">
+            <div class="col">
+              <p class="pl">Email:</p>
+            </div>
+            <div class="col">
+              <p>info@plazatheme.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- last footer -->
+  <div class="last-footer py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 d-flex align-items-center">
+          <p>copyright &copy; emily-fashion-store. all rights reserved.
+          </p>
+        </div>
+        <div class="col-md-3 d-flex align-items-center">
+          <label for="#" class="">Select-Store:</label>
+          <select name="#" id="#">
+            <option value="">Chamo Fashion</option>
+            <option value="">Emily Fashion</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <div class="b-footer-item ms-auto">
+            <ul class="payment text-right">
+              <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                    class="fab fa-cc-paypal"></i></span></li>
+              <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                    class="fab fa-cc-visa"></i></span> </li>
+              <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                    class="fab fa-cc-mastercard"></i></span></li>
+              <li><span class="launch" data-target="#staticBackdrop" data-toggle="modal"><i
+                    class="fas fa-credit-card"></i></span></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./js/jquery.min.js"></script>
+
+  <script src="./js/product-details.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
